@@ -9,6 +9,6 @@ services:
     environment:
       - TZ=Asia/Bangkok
     ports:
-      - '8080:8080'   #follow you port
+      - '8087:8080'   #follow you port
     volumes:
       - '/home/asura/Desktop/test:/app/filestorage/images/'
